@@ -7,4 +7,9 @@ cada valor com exatamente 2 casas decimais.
 
 '''
 valorInvestido = float(input("Informe o valor investido :"))
-jurosAno = valorInvestido*1.12
+jurosAno1 = valorInvestido * 1.12
+jurosAno2 = jurosAno1 * 1.12
+jurosAno3 = jurosAno2 * 1.12
+print("O investimento em 1 ano é de",jurosAno1)
+print("O investimento em 2 anos é de",jurosAno2 )
+print("O investimento em 3 anos é de ",jurosAno3)
